@@ -305,8 +305,7 @@
 
 	#header.dark.transparent-header,
 	#header.dark.semi-transparent {
-		/*background-color: #333;*/
-		background: transparent;
+		background-color: #333;
 		border-bottom: 1px solid rgba(0,0,0,0.1);
 	}
 
@@ -334,10 +333,6 @@
 	#header-trigger,
 	.top-advert,
 	.header-extras { display: none; }
-
-	#header, #header-wrap, #logo img {
-    	height: 70px;
-	}
 
 	#logo {
 		display: block;

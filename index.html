@@ -1,387 +1,937 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="fr">
+<html dir="ltr" lang="en-US">
 <head>
 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Prefix Labs" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
 
-    <!-- Stylesheets
-    ============================================= -->
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700,800,900|Permanent+Marker" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-    <!-- One Page Module Specific Stylesheet -->
-    <link rel="stylesheet" href="onepage.css" type="text/css" />
-    <!-- 
-    <link rel="stylesheet" href="css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-    <link rel="stylesheet" href="css/fonts.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/et-line.css" type="text/css" />
-    -->
-    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
 
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/layers.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation.css">
 
-    <link rel="icon" href="images/double-a-vector-logo.ico" />
+	<link rel="icon" href="images/double-a-vector-logo.ico" />
+	<!-- Document Title
+	============================================= -->
+	<title>L'été Double A</title>
 
+	<style>
 
-    <!-- Document Title
-    ============================================= -->
-    <title>Promom Double A</title>
+		.demos-filter {
+			margin: 0;
+			text-align: right;
+		}
+
+		.demos-filter li {
+			list-style: none;
+			margin: 10px 0px;
+		}
+
+		.demos-filter li a {
+			display: block;
+			border: 0;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: #444;
+		}
+
+		.demos-filter li a:hover,
+		.demos-filter li.activeFilter a { color: #1ABC9C; }
+
+		@media (max-width: 991px) {
+			.demos-filter { text-align: center; }
+
+			.demos-filter li {
+				float: left;
+				width: 33.3%;
+				padding: 0 20px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.demos-filter li { width: 50%; }
+		}
+
+		.revo-slider-emphasis-text {
+			font-size: 64px;
+			font-weight: 700;
+			letter-spacing: -1px;
+			font-family: 'Raleway', sans-serif;
+			padding: 15px 20px;
+			border-top: 2px solid #FFF;
+			border-bottom: 2px solid #FFF;
+		}
+
+		.revo-slider-desc-text {
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			width: 650px;
+			text-align: center;
+			line-height: 1.5;
+		}
+
+		.revo-slider-caps-text {
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: 'Raleway', sans-serif;
+		}
+		.tp-video-play-button { display: none !important; }
+
+		.tp-caption { white-space: nowrap; }
+
+	</style>
 
 </head>
 
-
 <body class="stretched">
 
-<!-- bg video -->
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
 
-    <div class="bg-video--layer product-bg-video-layer">
+		<!-- Slider
+		============================================= -->
 
-        <header>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class='col-md-12'>
-                        <div class="animation-element slide-left big-line text-center">
-                            <div class="title-slide first text-uppercase">le bon choix,</div>
-                        </div>
-                    </div>
-                    <div class='col-md-12'>
-                        <div class="animation-element slide-right big-line text-center">
-                            <div class="title-slide second text-uppercase">le meilleur choix</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header><!-- #header end -->
+		<section id="slider" class="revslider-wrap clearfix">
 
-        <section id="bloc-promo">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="image-ramette" src="images/packshot.png">
-                    </div>
-                    <div class="col-md-12">
-                        <div class="promo-doublea"><span class="text-uppercase">la promo de l'été </span><span class="company">Double A</span></div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="detail-promo-doublea">
-                            <p class="text-uppercase">pour profité de l'été, <span class="company">Double A</span> vous offfre ce superbe transat gonflable lamzac</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<div id="rev_slider_14_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="gym1" style="background-color:transparent;padding:0px;">
+				<!-- START REVOLUTION SLIDER 5.0.7 fullscreen mode -->
+					<div id="rev_slider_14_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.0.7">
+						<ul>	<!-- SLIDE  -->
+							<li data-index="rs-44" data-transition="slideoververtical" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="images/gym1-100x50.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="images/paradisiaque-mer-turquoise-ciel-bleu.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+								<!-- LAYERS -->
 
-                <div class="video-bg" style="background-image: url(images/beach-waves-loop.jpg);">
-                    <video class="background-video hero-bg-video is-playing" loop="loop" autoplay="autoplay" muted="muted" poster="images/beach-waves-loop.jpg" id="bgvid">
-                        <source src="videos/beach-waves-loop.mp4" type="video/mp4">
-                        <source src="videos/beach-waves-loop.webm" type="video/webm">
-                        <source src="videos/beach-waves-loop.ogv" type="video/ogg">
-                    </video>
-                </div>
-                <div class="video-overlay"></div>
-                <!--<div class="bg-video--controls">
-                    <button class="bg-video--play-pause js-bg-video-play-pause"><i class="icon-pause"></i> <span class="sr-text">Play / Pause</span></button>
-                    <button class="bg-video--adjust-overlay js-bg-video-adjust-overlay"><i class="icon-adjust"></i> <span class="sr-text">Adjust Overlay Opacity</span></button>
-                    <button class="bg-video--fullscreen js-toggle-video-size"><i class="icon-fullscreen"></i> <span class="sr-text">Toggle Video Size</span></button>
-                    <progress class="bg-video--progress js-bg-video-progress" min="0" max="100" value="53"></progress>
-                </div>-->
-                <div class="col-full bg-video--overlay">
-                    <div class="bg-video--inner">
-                                                
-                    </div>
-                </div>
-            </div>
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-44-layer-1"
+									 data-x="['center','center','center','center']" data-hoffset="['-210','-210','-210','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-92','-92','-92','-142']"
+												data-fontsize="['80','80','80','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-<!-- end bg video -->
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
 
+									style="z-index: 5; white-space: nowrap;color: #42c1c7;">LE <span>BON</span> CHOIX,
+								</div>
+
+								<!-- LAYER NR. 2 
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-44-layer-2"
+									 data-x="['center','center','center','center']" data-hoffset="['120','120','120','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-95','-95','-95','-85']"
+												data-fontsize="['80','80','80','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
 
+									style="z-index: 6; white-space: nowrap;font-family:'Permanent Marker';">GENETICS
+								</div>-->
+
+								<!-- LAYER NR. 3 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-44-layer-3"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-20','-20','-20','-22']"
+												data-fontsize="['80','80','80','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="750"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
 
-    <!-- Document Wrapper
-    ============================================= -->
-    <div id="wrapper" class="clearfix">
+									style="z-index: 7; white-space: nowrap;color:#2e3192;">LE <span>MEILLEUR</span> CHOIX
+								</div>
 
-        <!-- Slider 
-        ============================================= -->
-        <section id="slider" class="slider-parallax full-screen clearfix">
+								<!-- LAYER NR. 4 -->
+								<div class="tp-caption Gym-Subline   tp-resizeme"
+									 id="slide-44-layer-4"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','51']"
+												data-fontsize="['30','30','30','15']"
+									data-lineheight="['30','30','30','20']"
+									data-fontweight="['100','100','100','400']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-
-        </section><!-- #slider end -->
-
-
-        <!-- Content
-        ============================================= -->
-        <section id="content">
-
-            <div class="content-wrap nopadding">
-
-                <div id="section-about" class="center">
-                    <img src="images/sofa-gonflable-lamzac.jpg">
-                </div>
-
-                <div id="section-services" class="notoppadding page-section">
-
-                </div>
-
-
-            </div>
-                
-
-        </section><!-- #content end -->
-
-        <!-- Footer
-        ============================================= -->
-        <footer id="footer" class="dark">
-
-            <!-- Copyrights
-            ============================================= -->
-            <div id="copyrights">
-
-                <div class="container clearfix">
-
-                    <div class="col_half">
-                        <div class="copyrights-menu copyright-links clearfix">
-                            <span id="mentions-legales">Mentions Légales</span>
-                        </div>
-                        PREFIX LABS &copy; <span id="copyright-year"></span>
-                    </div>
-
-                    <div class="col_half col_last tright">
-                        <div class="fright clearfix">
-                            <a href="https://www.facebook.com/prefixlabs/" target="_blank" class="social-icon si-small si-borderless nobottommargin si-facebook">
-                                <i class="icon-facebook"></i>
-                                <i class="icon-facebook"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/company-beta/11134201/" target="_blank" class="social-icon si-small si-borderless nobottommargin si-linkedin">
-                                <i class="icon-linkedin"></i>
-                                <i class="icon-linkedin"></i>
-                            </a>
-<!--                             <a href="#" class="social-icon si-small si-borderless nobottommargin si-twitter">
-                                <i class="icon-twitter"></i>
-                                <i class="icon-twitter"></i>
-                            </a> -->
-
-                            <a href="http://www.viadeo.com/fr/company/prefix-labs" target="_blank" class="social-icon si-small si-borderless nobottommargin si-viadeo">
-                                <i class="icon-viadeo"></i>
-                                <i class="icon-viadeo"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div><!-- #copyrights end -->
-
-        </footer><!-- #footer end -->
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
 
-    </div><!-- #wrapper end -->
+									style="z-index: 8; white-space: nowrap;">CHOISISSEZ LA DOUBLE QUALITE
+								</div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title center uppercase" id="myModalLabel">Confirmation</h4>
-          </div>
-          <div class="modal-body">
-            Votre message a bien été envoyé, vous aurez une réponse dans les plus brefs délais.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+								<!-- LAYER NR. 5 -->
+								<div class="tp-caption Gym-SmallText  "
+									 id="slide-44-layer-5"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['162','112','72','72']"
+												data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-    <div class="modal fade" id="modal-mentions" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title center uppercase">Mentions Légales</h4>
-          </div>
-          <div class="modal-body">
-            En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 
-            <br>
-            pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <strong>prefix.fr</strong> 
-            <br>
-            l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi : 
+									 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1500"
+									data-splitin="chars"
+									data-splitout="none"
+									data-basealign="slide"
+									data-responsive_offset="off"
+									data-responsive="off"
+									data-elementdelay="0.05"
 
-            <br>
-            <br>
+									style="z-index: 9; white-space: nowrap; font-size: 22px; line-height: 22px; font-weight: 400; color: #2e3192;">Les promos de l'été Double A
+								</div>
 
-            <strong>L’éditeur du Site Web est :</strong>
+								<!-- LAYER NR. 6 -->
+								<div class="tp-caption Gym-Button rev-btn rev-maxround rev-hiddenicon "
+									 id="slide-44-layer-6"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['95','60','20','20']"
+												data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+										data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power2.easeOut;"
+										data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(114, 168, 0, 1.00);"
 
-            <br>
-            <br>
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_out="x:inherit;y:inherit;"
+									data-start="1500"
+									data-splitin="none"
+									data-splitout="none"
+									data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""}]'
+									data-basealign="slide"
+									data-responsive_offset="off"
+									data-responsive="off"
 
-            La société Prefix Labs
-            <br>
-            Société par actions simplifiée au capital de 1000 euros
-            <br>
-            Dont le siège est situé 12, place du parc aux lièvres 91000 Evry
-            <br>
-            Immatriculée au registre du commerce et des sociétés d'Evry sous le n°829 292 630
-            <br>
-            <strong>Code APE :</strong> 6202A (Conseil en systèmes et logiciels informatiques)
-            <br>
-            <strong>TVA intracommunautaire : </strong>
-            <br>
+									style="z-index: 10; white-space: nowrap;">EN SAVOIR PLUS <i class="icon-chevron-right"></i>
+								</div>
+							</li>
+							<!-- SLIDE  -->
+							<li data-index="rs-45" data-transition="slideoververtical" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="images/gym2-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Service" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="images/sofa-gonflable-lamzac.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+								<!-- LAYERS -->
 
-            <strong>Numéro de téléphone :</strong> 07 62 38 31 23 <strong>ou</strong> 06 50 01 79 61
-            <br>
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-45-layer-1"
+									 data-x="['left','center','center','center']" data-hoffset="['150','-90','-90','-70']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-182','-182','-182','-182']"
+												data-fontsize="['80','80','80','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-            <strong>Adresse email : </strong> contact@prefix.fr
-            <br>
-            <br>
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
-            <strong>Les responsables de la publication du Site Web sont :</strong>
-            <br>
-            Monsieur Olivier Dupre et Monsieur Marc Crucifix
-            <br>
-            <br>
 
-            <strong>L’hébergement du Site Web est assuré par :</strong>
-            <br>
-            <br>
-            La société OVH
-            <br>
-            SAS au capital de 10 069 020 € - RCS Roubaix-Tourcoing 424 761 419 00045
-            <br>
-            Dont le siège est 2 rue Kellermann - 59100 Roubaix - France
-            <br>
-            Site internet : www.ovh.com
-          </div>
-        </div>
-      </div>
-    </div>
+									style="z-index: 5; white-space: nowrap;">LE SAC
+								</div>
 
-    <div class="modal fade" id="modal-mentions" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title center uppercase">Mentions Légales</h4>
-          </div>
-          <div class="modal-body">
-            En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 
-            <br>
-            pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site <strong>prefix.fr</strong> 
-            <br>
-            l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi : 
+								<!-- LAYER NR. 2 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-45-layer-2"
+									 data-x="['left','center','center','center']" data-hoffset="['460','100','100','70']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-185','-185','-185','-185']"
+												data-fontsize="['80','80','80','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-            <br>
-            <br>
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
-            <strong>L’éditeur du Site Web est :</strong>
 
-            <br>
-            <br>
+									style="z-index: 6; white-space: nowrap;font-family:'Permanent Marker';">LAMZAC®
+								</div>
 
-            La société Prefix Labs
-            <br>
-            Société par actions simplifiée au capital de 1000 euros
-            <br>
-            Dont le siège est situé 12, place du parc aux lièvres 91000 Evry
-            <br>
-            Immatriculée au registre du commerce et des sociétés d'Evry sous le n°829 292 630
-            <br>
-            <strong>Code APE :</strong> 6202A (Conseil en systèmes et logiciels informatiques)
-            <br>
-            <strong>TVA intracommunautaire : </strong>
-            <br>
+								<!-- LAYER NR. 3 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-45-layer-3"
+									 data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-110','-110','-110','-127']"
+												data-fontsize="['80','80','80','50']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-            <strong>Numéro de téléphone :</strong> 07 62 38 31 23 <strong>ou</strong> 06 50 01 79 61
-            <br>
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="750"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
-            <strong>Adresse email : </strong> contact@prefix.fr
-            <br>
-            <br>
 
-            <strong>Les responsables de la publication du Site Web sont :</strong>
-            <br>
-            Monsieur Olivier Dupre et Monsieur Marc Crucifix
-            <br>
-            <br>
+									style="z-index: 7; white-space: nowrap;">OFFERT PAR DOUBLE A
+								</div>
 
-            <strong>L’hébergement du Site Web est assuré par :</strong>
-            <br>
-            <br>
-            La société OVH
-            <br>
-            SAS au capital de 10 069 020 € - RCS Roubaix-Tourcoing 424 761 419 00045
-            <br>
-            Dont le siège est 2 rue Kellermann - 59100 Roubaix - France
-            <br>
-            Site internet : www.ovh.com
-          </div>
-        </div>
-      </div>
-    </div>
+								<!-- LAYER NR. 4 -->
+								<div class="tp-caption Gym-Subline   tp-resizeme"
+									 id="slide-45-layer-4"
+									 data-x="['left','center','center','center']" data-hoffset="['146','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','1']"
+												data-fontsize="['20','20','20','15']"
+									data-lineheight="['30','30','30','20']"
+									data-fontweight="['300','300','300','400']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-    <!-- Go To Top
-    ============================================= -->
-    <div id="gotoTop" class="icon-angle-up"></div>
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
-    <!-- External JavaScripts
-    ============================================= -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/plugins.js"></script>
 
-    <!-- Footer Scripts
-    ============================================= -->
-    <script type="text/javascript" src="js/functions.js"></script>
+									style="z-index: 8; white-space: nowrap; font-size: 20px; font-weight: 300;"><i class="icon-plus" style="color:#8bc027;"></i> DESIGN<br/>
+						<i class="icon-plus" style="color:#8bc027;"></i> LEGER<br/>
+						<i class="icon-plus" style="color:#8bc027;"></i> ULTRA COMPACT<br/>
+						<i class="icon-plus" style="color:#8bc027;"></i> FACILE A GONFLER
+								</div>
 
-    <script>
-        document.getElementById('copyright-year').appendChild(document.createTextNode(new Date().getFullYear()));
+								<!-- LAYER NR. 5 -->
+								<div class="tp-caption   tp-resizeme"
+									 id="slide-45-layer-5"
+									 data-x="['left','center','center','center']" data-hoffset="['175','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','110']"
+												data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-        $(function () {
-            $('#template-contactform').on('submit', function (e) {
-                e.preventDefault();
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+									 data-transform_out="y:[100%];opacity:0.01;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1500"
+									data-responsive_offset="on"
 
-                var $form = $(this);
-                var formdata = (window.FormData) ? new FormData($form[0]) : null;
-                var data = (formdata !== null) ? formdata : $form.serialize();
-                $.ajax({
-                    url: $form.attr('action'),
-                    type: $form.attr('method'),
-                    contentType: false,
-                    processData: false,
-                    data: data,
-                    success: function (response) {
-                        console.log(response);
-                        if (response == 'response-ok') {
-                            $('#myModal').modal('show');
-                        }
-                    }
-                });
-            });
-        });
 
-        $( document ).ajaxStart(function() {
-            $('#template-contactform-submit').hide();
-            $( "#loading" ).addClass('sk-folding-cube');
-        });
+									style="z-index: 9;"><img src="images/greenstripe600x100.png" alt="" width="600" height="100" data-ww="" data-hh="" data-no-retina>
+								</div>
 
-        $( document ).ajaxStop(function() {
-            $('#template-contactform-submit').show();
-            $( "#loading" ).removeClass('sk-folding-cube');
-        });
+								<!-- LAYER NR. 6 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-45-layer-6"
+									 data-x="['left','center','center','center']" data-hoffset="['260','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','108']"
+												data-lineheight="['30','30','30','70']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
 
-        $('#mentions-legales').on( "click", function() {
-            $('#modal-mentions').modal('show');
-        });
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
 
-    </script>
+
+									style="z-index: 10; white-space: nowrap; font-size: 30px; line-height: 30px;background-color:rgba(139, 192, 39, 0);"> pour 2 palettes achetées
+								</div>
+
+								<!-- LAYER NR. 7 -->
+								<div class="tp-caption Gym-SmallText  "
+									 id="slide-45-layer-7"
+									 data-x="['left','center','center','center']" data-hoffset="['198','0','0','0']"
+									 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['100','85','75','75']"
+												data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1850"
+									data-splitin="chars"
+									data-splitout="none"
+									data-responsive_offset="off"
+									data-responsive="off"
+									data-elementdelay="0.05"
+
+									style="z-index: 11; white-space: nowrap; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 0.50);">Terms & Conditions may apply.
+								</div>
+
+								<!-- LAYER NR. 8 -->
+								<div class="tp-caption rev-btn rev-maxround rev-hiddenicon rev-bordered  "
+									 id="slide-45-layer-8"
+									 data-x="['left','center','center','center']" data-hoffset="['216','0','0','0']"
+									 data-y="['bottom','bottom','bottom','bottom']" data-voffset="['31','31','21','21']"
+												data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+										data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
+										data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(114, 168, 0, 0);bc:rgba(139, 192, 39, 1.00);cursor:pointer;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_out="x:inherit;y:inherit;"
+									data-start="1650"
+									data-splitin="none"
+									data-splitout="none"
+									data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-46","delay":""}]'
+									data-responsive_offset="on"
+									data-responsive="off"
+
+									style="z-index: 12; white-space: nowrap; font-size: 15px; line-height: 15px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;padding:12px 35px 12px 35px;border-color:rgba(255, 255, 255, 0.25);border-style:solid;border-width:2px;border-radius:30px 30px 30px 30px;letter-spacing:1px;">SIGN UP TODAY <i class="icon-chevron-right"></i>
+								</div>
+							</li>
+							<!-- SLIDE  -->
+							<li data-index="rs-46" data-transition="slideoververtical" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1500"  data-thumb="images/fitness-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Contact" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="images/fitness.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+								<!-- LAYERS -->
+
+								<!-- BACKGROUND VIDEO LAYER -->
+								<div class="rs-background-video-layer"
+									data-forcerewind="on"
+									data-volume="mute"
+									data-videowidth="100%"
+									data-videoheight="100%"
+									data-videomp4="videos/fit_edit.mp4"
+									data-videopreload="preload"
+									data-videoloop="none"
+									data-forceCover="1"
+									data-aspectratio="16:9"
+									data-autoplay="true"
+									data-autoplayonlyfirsttime="false"
+									data-nextslideatend="true"
+								></div>
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption -  "
+									 id="slide-46-layer-1"
+									 data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+									 data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+												data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="opacity:0;s:1500;e:Power2.easeOut;"
+									 data-transform_out="auto:auto;s:1500;e:Power2.easeOut;"
+									data-start="0"
+									data-splitin="none"
+									data-splitout="none"
+									data-basealign="slide"
+									data-responsive_offset="off"
+									data-responsive="off"
+
+									style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);"><div class="coverdark"></div>
+								</div>
+
+								<!-- LAYER NR. 2 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-46-layer-2"
+									 data-x="['center','center','center','center']" data-hoffset="['-170','-190','-190','-138']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-182','-182','-182','-139']"
+												data-fontsize="['80','80','80','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
+									style="z-index: 6; white-space: nowrap;">NO
+								</div>
+
+								<!-- LAYER NR. 3 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-46-layer-3"
+									 data-x="['center','center','center','center']" data-hoffset="['80','60','60','50']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-185','-185','-185','-143']"
+												data-fontsize="['80','80','80','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
+									style="z-index: 7; white-space: nowrap;font-family:'Permanent Marker';">EXCUSES
+								</div>
+
+								<!-- LAYER NR. 4 -->
+								<div class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-46-layer-4"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['-110','-110','-110','-87']"
+												data-fontsize="['80','80','80','50']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="750"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
+									style="z-index: 8; white-space: nowrap;">GET FIT WITH US
+								</div>
+
+								<!-- LAYER NR. 5 -->
+								<div class="tp-caption Gym-Subline   tp-resizeme"
+									 id="slide-46-layer-5"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['71','71','71','21']"
+												data-fontsize="['20','20','20','15']"
+									data-lineheight="['30','30','30','20']"
+									data-fontweight="['300','300','300','400']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
+									style="z-index: 9; white-space: nowrap; font-size: 20px; font-weight: 300;"><i class="icon-map-marker" style="color:#8bc027;"></i> HADES ROAD 145, BROOKLYN NY<br/>
+									<i class="icon-phone" style="color:#8bc027;"></i> 0800 987654<br/>
+									<i class="icon-envelope" style="color:#8bc027;"></i> INFO@JOHNSMITHGYM<br/>
+									<i class="icon-clock"  style="color:#8bc027;"></i> MONDAY - SUNDAY 07:30 - 22:30
+								</div>
+
+								<!-- LAYER NR. 6 -->
+								<div class="tp-caption   tp-resizeme"
+									 id="slide-46-layer-6"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['212','212','212','132']"
+												data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+									 data-transform_out="y:[100%];opacity:0.01;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1500"
+									data-responsive_offset="on"
+
+
+									style="z-index: 10;"><img src="images/greenstripe.png" alt="" width="297" height="80" data-ww="" data-hh="" data-no-retina>
+								</div>
+
+								<!-- LAYER NR. 7 -->
+								<a href="tel:555-555-5555" class="tp-caption Gym-Display   tp-resizeme"
+									 id="slide-46-layer-7"
+									 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									 data-y="['middle','middle','middle','middle']" data-voffset="['210','210','210','128']"
+												data-lineheight="['30','30','30','70']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+
+									 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+									 data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									 data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+
+
+									style="z-index: 11; white-space: nowrap; font-size: 20px; line-height: 30px;background-color:rgba(139, 192, 39, 0);">CALL US TODAY
+								</a>
+							</li>
+						</ul>
+						<div class="tp-static-layers">
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption   tp-static-layer"
+								 id="slide-8-layer-2"
+								 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+								 data-y="['top','top','top','top']" data-voffset="['10px','10px','10px','10px']"
+											data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+									data-style_hover="cursor:pointer;"
+
+								 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+								 data-transform_out="auto:auto;s:300;"
+								data-start="500"
+								data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-44","delay":""}]'
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-startslide="0"
+								data-endslide="2"
+
+								style="z-index: 5;"><img src="images/logo-double-a.png" alt="" width="220" height="73" data-ww="['220px','220px','220px','220px']" data-hh="['73px','73px','73px','73px']" data-no-retina>
+							</div>
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption   tp-static-layer"
+								 id="slide-8-layer-3"
+								 data-x="['right','right','right','right']" data-hoffset="['30','30','30','30']"
+								 data-y="['top','top','top','top']" data-voffset="['30','30','30','30']"
+											data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+									data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Linear.easeNone;"
+									data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(39, 75, 137, 1.00);cursor:pointer;"
+
+								 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+								 data-transform_out="auto:auto;s:300;"
+								data-start="500"
+								data-splitin="none"
+								data-splitout="none"
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-startslide="0"
+								data-endslide="2"
+
+								style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);background-color:rgba(59, 89, 152, 1.00);padding:6px 10px 4px 11px;border-radius:30px 30px 30px 30px;"><i class="icon-facebook"></i>
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption   tp-static-layer"
+								 id="slide-8-layer-4"
+								 data-x="['right','right','right','right']" data-hoffset="['68','68','68','68']"
+								 data-y="['top','top','top','top']" data-voffset="['30','30','30','30']"
+											data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+									data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Linear.easeNone;"
+									data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(61, 155, 221, 1.00);cursor:pointer;"
+
+								 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+								 data-transform_out="auto:auto;s:300;"
+								data-start="500"
+								data-splitin="none"
+								data-splitout="none"
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-startslide="0"
+								data-endslide="2"
+
+								style="z-index: 7; white-space: nowrap; font-size: 17px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);background-color:rgba(85, 172, 238, 1.00);padding:6px 7px 4px 9px;border-radius:30px 30px 30px 30px;"><i class="icon-twitter" style="font-size: 14px;"></i>
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption rev-burger revb-white  tp-static-layer"
+								 id="slide-8-layer-5"
+								 data-x="['left','left','left','left']" data-hoffset="['30','30','30','30']"
+								 data-y="['top','top','top','top']" data-voffset="['30','30','30','30']"
+											data-width="60"
+								data-height="60"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+									data-style_hover="cursor:pointer;"
+
+								 data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
+								 data-transform_out="auto:auto;s:300;"
+								data-start="500"
+								data-splitin="none"
+								data-splitout="none"
+								data-actions='[{"event":"click","action":"toggleclass","layer":"slide-8-layer-5","delay":"0","classname":"open"},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-8-layer-6","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-8-layer-7","delay":""},{"event":"click","action":"togglelayer","layerstatus":"hidden","layer":"slide-8-layer-8","delay":""}]'
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-startslide="0"
+								data-endslide="2"
+
+								style="z-index: 8; min-width: 60px; max-width: 60px; max-width: 60px; max-width: 60px; white-space: nowrap; font-size: px; line-height: px; font-weight: 400;padding:22px 0px 0px 14px;border-color:rgba(255, 255, 255, 0.25);border-style:solid;border-width:2px;border-radius:50% 50% 50% 50%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+											  <span style="border-radius: 6px;"></span>
+											  <span style="border-radius: 6px;"></span>
+											  <span style="border-radius: 6px;"></span>
+
+							</div>
+
+							<!-- LAYER NR. 5 -->
+							<div class="tp-caption gym-menuitem   tp-static-layer"
+								 id="slide-8-layer-6"
+								 data-x="['left','left','left','left']" data-hoffset="['30','30','30','30']"
+								 data-y="['top','top','top','top']" data-voffset="['100','100','100','100']"
+											data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+									data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:200;e:Linear.easeNone;"
+									data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 0.25);cursor:pointer;"
+
+								 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
+								 data-transform_out="x:-50px;opacity:0;s:800;e:Power3.easeInOut;s:800;e:Power3.easeInOut;"
+								data-start="bytrigger"
+								data-splitin="none"
+								data-splitout="none"
+								data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-44","delay":""},{"event":"click","action":"simulateclick","layer":"slide-8-layer-5","delay":""}]'
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-startslide="0"
+								data-endslide="1"
+								 data-end="bytrigger"
+								data-lasttriggerstate="keep"
+								style="z-index: 9; white-space: nowrap; font-size: 20px; line-height: 20px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;background-color:rgba(0, 0, 0, 1.00);padding:3px 5px 3px 8px;border-color:rgba(255, 255, 255, 0);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;">WELCOME
+							</div>
+
+							<!-- LAYER NR. 6 -->
+							<div class="tp-caption gym-menuitem   tp-static-layer"
+								 id="slide-8-layer-7"
+								 data-x="['left','left','left','left']" data-hoffset="['30','30','30','30']"
+								 data-y="['top','top','top','top']" data-voffset="['135','135','135','135']"
+											data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+									data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:200;e:Linear.easeNone;"
+									data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 0.25);cursor:pointer;"
+
+								 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
+								 data-transform_out="x:-50px;opacity:0;s:800;e:Power3.easeInOut;s:800;e:Power3.easeInOut;"
+								data-start="bytrigger"
+								data-splitin="none"
+								data-splitout="none"
+								data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-45","delay":""},{"event":"click","action":"simulateclick","layer":"slide-8-layer-5","delay":""}]'
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-startslide="0"
+								data-endslide="1"
+								 data-end="bytrigger"
+								data-lasttriggerstate="keep"
+								style="z-index: 10; white-space: nowrap; font-size: 20px; line-height: 20px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;background-color:rgba(0, 0, 0, 1.00);padding:3px 5px 3px 8px;border-color:rgba(255, 255, 255, 0);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;">OUR OFFER
+							</div>
+
+							<!-- LAYER NR. 7 -->
+							<div class="tp-caption gym-menuitem   tp-static-layer"
+								 id="slide-8-layer-8"
+								 data-x="['left','left','left','left']" data-hoffset="['30','30','30','30']"
+								 data-y="['top','top','top','top']" data-voffset="['170','170','170','170']"
+											data-width="none"
+								data-height="none"
+								data-whitespace="nowrap"
+								data-transform_idle="o:1;"
+									data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:200;e:Linear.easeNone;"
+									data-style_hover="c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 0.25);cursor:pointer;"
+
+								 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
+								 data-transform_out="x:-50px;opacity:0;s:800;e:Power3.easeInOut;s:800;e:Power3.easeInOut;"
+								data-start="bytrigger"
+								data-splitin="none"
+								data-splitout="none"
+								data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-46","delay":""},{"event":"click","action":"simulateclick","layer":"slide-8-layer-5","delay":""}]'
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-startslide="0"
+								data-endslide="1"
+								 data-end="bytrigger"
+								data-lasttriggerstate="keep"
+								style="z-index: 11; white-space: nowrap; font-size: 20px; line-height: 20px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;background-color:rgba(0, 0, 0, 1.00);padding:3px 5px 3px 8px;border-color:rgba(255, 255, 255, 0);border-style:solid;border-width:2px;border-radius:3px 3px 3px 3px;">CONTACT
+							</div>
+						</div>
+					<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+				</div>
+			</div><!-- END REVOLUTION SLIDER -->
+
+		</section>
+
+	</div><!-- #wrapper end -->
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
+	<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+
+	<script type="text/javascript" src="js/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="js/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="js/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="js/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="js/revolution.extension.navigation.min.js"></script>
+
+	<script type="text/javascript">
+		var tpj=jQuery;
+		var revapi14;
+		tpj(document).ready(function() {
+			if(tpj("#rev_slider_14_1").revolution == undefined){
+				revslider_showDoubleJqueryError("#rev_slider_14_1");
+			}else{
+				revapi14 = tpj("#rev_slider_14_1").show().revolution({
+					sliderType:"standard",
+					jsFileLocation:"js/",
+					sliderLayout:"fullscreen",
+					dottedOverlay:"none",
+					delay:9000,
+					navigation: {
+						keyboardNavigation:"off",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation:"on",
+						onHoverStop:"off",
+						touch:{
+							touchenabled:"on",
+							swipe_threshold: 75,
+							swipe_min_touches: 1,
+							swipe_direction: "vertical",
+							drag_block_vertical: false
+						}
+					},
+					responsiveLevels:[1240,1024,778,480],
+					gridwidth:[1240,1024,778,480],
+					gridheight:[868,768,960,720],
+					lazyType:"none",
+					shadow:0,
+					spinner:"off",
+					stopLoop:"on",
+					stopAfterLoops:0,
+					stopAtSlide:1,
+					shuffle:"off",
+					autoHeight:"off",
+					fullScreenAlignForce:"off",
+					fullScreenOffsetContainer: "",
+					fullScreenOffset: "",
+					disableProgressBar:"on",
+					hideThumbsOnMobile:"off",
+					hideSliderAtLimit:0,
+					hideCaptionAtLimit:0,
+					hideAllCaptionAtLilmit:0,
+					debugMode:false,
+					fallbacks: {
+						simplifyAll:"off",
+						nextSlideOnWindowFocus:"off",
+						disableFocusListener:false,
+					}
+				});
+			}
+		});	/*ready*/
+	</script>
 
 </body>
 </html>

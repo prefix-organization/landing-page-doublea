@@ -40,7 +40,7 @@ body #side-panel.dark { background-color: #383838; }
 
 .dark .section,
 .section.dark {
-	background-color: #000;
+	background-color: #282828;
 	border-color: rgba(255,255,255,0.1);
 }
 
@@ -168,7 +168,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 .dark #header-wrap:not(.not-dark) #primary-menu > ul > li:hover > a,
 .dark #header-wrap:not(.not-dark) #primary-menu > ul > li.current > a,
 .dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li:hover > a,
-.dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li.current > a { color: #005298; background-color: #fff }
+.dark #header-wrap:not(.not-dark) #primary-menu > .container > ul > li.current > a { color: #EEE; }
 
 .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li:hover > a,
 .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li.current > a,
@@ -580,7 +580,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 
 .dark .button-dark:hover { background-color: #1ABC9C; }
 
-.dark .button-light:not(.button-border):hover { background-color: #005298; }
+.dark .button-light:not(.button-border):hover { background-color: #282828; }
 
 .dark .button.button-border:not(.button-light) {
 	border-color: rgba(255,255,255,0.4);
@@ -1028,8 +1028,8 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 }
 
 .dark #copyrights {
-	background-color: #000;
-	color: #fff;
+	background-color: rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.25);
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
@@ -1041,7 +1041,7 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 }
 
 .dark .copyright-links a:hover {
-	color: #23527c;
+	color: rgba(255,255,255,0.35);
 	border-bottom-color: rgba(255,255,255,0.35);
 }
 
@@ -1178,7 +1178,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 
 .dark .table-striped > tbody > tr:nth-child(odd) > td,
 .dark .table-striped > tbody > tr:nth-child(odd) > th,
-.table-striped > tbody > tr:nth-child(odd) { background-color: #ebf1ff; }
+.table-striped > tbody > tr:nth-child(odd) { background-color: rgba(0,0,0,0.05); }
 
 .dark .table-hover > tbody > tr:hover > td,
 .dark .table-hover > tbody > tr:hover > th { background-color: rgba(0,0,0,0.1); }
@@ -1734,7 +1734,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a,
-	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a { color: #fff !important; }
+	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a { color: #1ABC9C !important; }
 
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu ul ul a,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover ul a,
