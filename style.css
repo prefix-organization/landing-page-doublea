@@ -13680,15 +13680,46 @@ body:not(.no-transition) #wrapper,
 	font-weight:bold;
 }
 
+.subtitle-1 span{
+  	font-size: 90px;
+  }
+
+ .special-font, .special-font-2{
+  	z-index: 6; 
+  	white-space: nowrap;
+  	font-family:'Permanent Marker';
+  }
+
+  .logo-marque, .title-slide-3{
+  	font-style: italic;
+  }
+
+
 /* RESPONSIVE */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation : portrait) {
 
   .word{
   	font-size: 32px;
   }
 
-  .title-slide-2 span{
-  	font-size: 80%;
+  .title-slide-2{
+  	font-size: 70% !important;
+  	margin: 0 0 0 45px !important;
+  }
+
+  .special-font{
+  	margin: 0 !important;
+  	font-size: 70% !important;
+  }
+
+   .special-font-2{
+  	margin: 0 !important;
+  	font-size: 100% !important;
+  }
+
+  .title-1-1 span{
+  	font-size: 20px;
+  	font-weight: bold;
   }
 
    .title-1 span, .title-2 span, .title-slide-2-2 span, .title-slide-3-3 span{
@@ -13696,11 +13727,11 @@ body:not(.no-transition) #wrapper,
   }
 
   .title-slide-3{
-  	font-size: 90%;
-  	margin: 0 0 0 200px;
+  	font-size: 60% !important;
+  	margin: 0 0 0 180px !important;
   }
 
-  .subtitle-1 span{
+  .subtitle-1{
   	font-size: 20px;
   }
 
@@ -13708,12 +13739,18 @@ body:not(.no-transition) #wrapper,
   	font-size: 50%;
   }
 
+  .tp-simpleresponsive .logo-doublea img, .rev_slider .logo-doublea img{
+  	width: 110px !important;
+    height: 100% !important;
+    margin: 19px 0 0 16px;
+  }
+
   .tp-simpleresponsive .logo-made-in-france img, .rev_slider .logo-made-in-france img{
   	margin: -275px 0 0 10px;
   }
 
   .tp-simpleresponsive .packshot img, .rev_slider .packshot img{
-  	margin: -345px 0 0;
+  	margin: -325px 0 0;
   	padding-bottom: 20px;
   }
 
@@ -13721,5 +13758,19 @@ body:not(.no-transition) #wrapper,
   	display: none;
   }
 
+  #slide-45-layer-61{
+  	display: none;
+  }
+
 }
 
+@media only screen and (min-device-width: 400px) and (orientation : landscape) {
+
+	.tp-simpleresponsive .image-bbq1 img  {
+		margin: 0 0 0 30px;
+	}
+
+	.tp-simpleresponsive .image-bbq3 img  {
+		margin: 0 30px 0 0;
+	}
+}
