@@ -13670,3 +13670,56 @@ body:not(.no-transition) #wrapper,
 
 /* others font css*/
 
+.title-2 span{
+  	font-size: 100%;
+  }
+
+.word {
+	font-size: 32px;
+	color:#2e3192;
+	font-weight:bold;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 600px) {
+
+  .word{
+  	font-size: 32px;
+  }
+
+  .title-slide-2 span{
+  	font-size: 80%;
+  }
+
+   .title-1 span, .title-2 span, .title-slide-2-2 span, .title-slide-3-3 span{
+  	font-size: 90%;
+  }
+
+  .title-slide-3{
+  	font-size: 90%;
+  	margin: 0 0 0 200px;
+  }
+
+  .subtitle-1 span{
+  	font-size: 20px;
+  }
+
+  .date-offre span{
+  	font-size: 50%;
+  }
+
+  .tp-simpleresponsive .logo-made-in-france img, .rev_slider .logo-made-in-france img{
+  	margin: -275px 0 0 10px;
+  }
+
+  .tp-simpleresponsive .packshot img, .rev_slider .packshot img{
+  	margin: -345px 0 0;
+  	padding-bottom: 20px;
+  }
+
+  .tp-simpleresponsive .image-bbq3 img, .tp-simpleresponsive .image-bbq1 img  {
+  	display: none;
+  }
+
+}
+
