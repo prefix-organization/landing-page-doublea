@@ -13692,11 +13692,17 @@ body:not(.no-transition) #wrapper,
 
   .logo-marque, .title-slide-3{
   	font-style: italic;
+  	padding-right: 27px!important;
   }
 
 
 /* RESPONSIVE */
 @media only screen and (max-width: 600px) and (orientation : portrait) {
+
+  .logo-marque, .title-slide-3{
+  	font-style: italic;
+  	padding-right: 10px!important;
+  }
 
   .word{
   	font-size: 32px;
@@ -13752,9 +13758,10 @@ body:not(.no-transition) #wrapper,
   .tp-simpleresponsive .packshot img, .rev_slider .packshot img{
   	margin: -325px 0 0;
   	padding-bottom: 20px;
+
   }
 
-  .tp-simpleresponsive .image-bbq3 img, .tp-simpleresponsive .image-bbq1 img, .tp-simpleresponsive .image-sac-lamzac img{
+  .tp-simpleresponsive .image-bbq3 img{
   	display: none;
   }
 
