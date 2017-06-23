@@ -95,6 +95,8 @@
 
 	</style>
 
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 </head>
 
 <body class="stretched">
@@ -982,6 +984,32 @@
 				});
 			}
 		});	/*ready*/
+
+
+		//Popin cookies
+		window.addEventListener("load", function(){
+			window.cookieconsent.initialise({
+			  "palette": {
+			    "popup": {
+			      "background": "#2e3192"
+			    },
+			    "button": {
+			      "background": "transparent",
+			      "text": "#fff",
+			      "border": "#fff"
+			    }
+			  },
+			  "position": "top",
+			  "static": true,
+			  "content": {
+			    "message": "Bienvenue sur etedoublea ! En poursuivant votre navigation, vous acceptez l'utilisation de cookies.",
+			    "dismiss": "Ok",
+			    "link": "En savoir plus",
+			    "href": "https://www.google.com/intl/fr/policies/technologies/cookies/"
+			  }
+			})
+		});
+
 	</script>
 
 </body>
