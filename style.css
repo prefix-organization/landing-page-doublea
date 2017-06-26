@@ -13816,7 +13816,7 @@ body:not(.no-transition) #wrapper,
     box-sizing: border-box;
     font-family: Helvetica, Calibri, Arial, sans-serif;
     font-size: 13px;
-    line-height: 0.5em;
+    line-height: 1em;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
@@ -14040,4 +14040,30 @@ body:not(.no-transition) #wrapper,
 }
 .cc-floating.cc-theme-edgeless .cc-btn+.cc-btn {
     margin-left: 0;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	opacity: 0.5;
+	text-align: center;
+}
+
+footer a {
+	color: #fff;
+	cursor: pointer;
+}
+
+footer a:hover {
+	color: #fff;
+	opacity: 0.7;
+}
+#agence_prefix {
+	float: right;
+	margin: 0 10px 0 0;
+	font-style: italic;
+}
+
+#copyright {
+	margin: 0 0 0 150px;
 }
