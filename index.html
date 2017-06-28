@@ -733,6 +733,7 @@
 
 									style="z-index: 5;"><img src="images/bbq3.png" alt="" width="463" height="244" data-ww="['463px','463px','463px','463px']" data-hh="['244px','244px','244px','244px']" data-no-retina>
 								</div>
+
 							</li>
 						</ul>
 						<div class="tp-static-layers">
@@ -903,11 +904,54 @@
 						</div>
 					<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 				</div>
+
 			</div><!-- END REVOLUTION SLIDER -->
 
 		</section>
+		<footer>
+			<span id="copyright">Double A 2017 &copy; <span id="mentions-legales">Mentions Légales</span></span>
+		</footer>
+
+	<div class="modal fade" id="modal-mentions" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="false" style="color:#000">&times;</span></button>
+            <h4 class="modal-title center uppercase">Mentions Légales</h4>
+          </div>
+          <div class="modal-body">
+            Le présent site est la propriété de la société DA Alizay, Société par Actions Simplifiée à associé unique, au capital de 75 737 012 euros, immatriculée au Registre du Commerce et des Sociétés d'Evreux sous le numéro 790 462 972, dont le siège social est situé au Zone industrielle du Clos Pré, 27460 Alizay, numéro de TVA 52 790 462 972.
+            <br>
+            Contact : sandrine_dauster@doublea-alizay.fr
+            <br>
+            Téléphone :  02 35 02 72 72
+		    
+		    <br><br>
+
+            <strong>Crédits</strong>
+            <br><br>
+            Le site etedoublea a été créé par La société  <a href="https://www.prefix.fr" target="_blank">Prefix Labs</a>
+			<br><br>
+            <strong>Hébergement</strong>
+            <br><br>
+            L’hébergement du Site Web est assuré par : 
+            <br>
+
+			La société OVH 
+			<br>
+			SAS au capital de 10 069 020 € - RCS Roubaix-Tourcoing 424 761 419 00045 
+			<br>
+			Dont le siège est 2 rue Kellermann - 59100 Roubaix - France 
+			<br>
+			Site internet : <a href="https://www.ovh.com" target="_blank">www.ovh.com</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
 	</div><!-- #wrapper end -->
+	
 
 	<!-- External JavaScripts
 	============================================= -->
@@ -1007,6 +1051,11 @@
 			  }
 			})
 		});
+
+		// mentions legales
+		$('#mentions-legales').on( "click", function() {
+            $('#modal-mentions').modal('show');
+        });
 
 	</script>
 
