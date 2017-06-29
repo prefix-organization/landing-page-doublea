@@ -14049,7 +14049,7 @@ footer {
 	text-align: center;
 }
 
-footer a, span {
+footer a, footer span {
 	color: #fff;
 	cursor: pointer;
 }
